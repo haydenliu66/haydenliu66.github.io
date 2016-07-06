@@ -1,0 +1,88 @@
+
+/*头部header*/
+@media (min-width:768px) {
+
+}
+
+.navbar-right li{
+    display:block !important;
+    text-align:center;
+    padding:0;margin:0;
+}
+.navbar-right li:hover{
+    background: #777777;
+}
+.social-links:hover{
+    background: #f8f8f8 !important;
+}
+.social-links a{
+    width:25%;
+    height:40px;
+    float:left;
+    text-align:center;
+}
+
+/*脚部footer*/
+.footer{
+    padding:16px 0;
+}
+.footer a{
+    text-decoration:none;
+    color:#777777;
+}
+.footer a:hover{
+    color:#cccccc;
+}
+.footer .copyright{
+    line-height:34px;
+}
+.footer-bg-color{
+    background: #252525;
+    color:#777777;
+}
+
+/*section-header*/
+.wrapper{
+    margin-top:50px;
+}
+.section{
+    position: relative;
+}
+.parallax {
+    height:100%;
+}
+.parallax img{
+    position: absolute;
+    width:100%;
+    height:100%;
+}
+.section-header .scroll-arrow{
+    position: absolute;
+    text-align:center;
+    width:60px;
+    height:60px;
+    left:50%;
+    margin-left:-30px;
+    bottom:16px;
+    font-size:60px;
+    color:#212121;
+    animation:move 2s infinite;
+}
+@keyframes move {
+    0% {
+        bottom:16px;
+        opacity:0.8;
+    }
+    25% {
+        bottom:20px;
+        opacity:0.6;
+    }
+    50% {
+        bottom:16px;
+        opacity:0.8;
+    }
+}
+
+
+
+
