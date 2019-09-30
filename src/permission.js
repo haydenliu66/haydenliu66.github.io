@@ -10,7 +10,7 @@ router.beforeEach((to, from, next) => {
   if (to.matched.length === 0) {
     next({ name: '404' })
   } else {
-    document.title = to.meta ? to.meta.title + ' | 捕风捉影' : '捕风捉影'
+    document.title = to.meta ? to.meta.title + ' | Andrew海忠' : 'Andrew海忠'
     next()
   }
 })

@@ -6,23 +6,26 @@ module.exports = {
     index: {
       entry: 'src/main.js',
       template: 'public/index.html',
-      title: '首页',
-      chunks: ['chunk-vendors', 'chunk-common', 'index']
+      // chunks: ['chunk-vendors', 'chunk-common', 'index'],
+      title: '首页'
     }
   },
   publicPath: process.env.NODE_ENV === 'production' ? './dist/' : '',
   outputDir: 'dist',
   // 打包后的地址
   indexPath: path.join(__dirname, './index.html'),
-  // chainWebpack: config => config.plugins.delete('named-chunks'),
+  chainWebpack: config => config.plugins.delete('named-chunks'),
   devServer: {
     port: 4758,
+    open: true,
+    overlay: true,
+    contentBase: 'public',
     proxy: {
-      '/api': {
-        target: 'http://127.0.0.1:8080',
+      '/public': {
+        target: 'http://127.0.0.1:4758',
         changeOrigin: true,
         pathRewrite: {
-          '^/api': ''
+          '^/public': ''
         }
       }
     }

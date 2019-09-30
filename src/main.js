@@ -1,5 +1,5 @@
 import Vue from 'vue'
-import App from './App'
+import App from './app'
 
 import ElementUI from 'element-ui'
 
@@ -11,6 +11,12 @@ import '@/styles/index.scss'
 
 import '@/libs/extend'
 import './permission'
+
+Object.defineProperties(Vue.prototype, {
+  $author: {
+    value: 'evanliu2968'
+  }
+})
 
 Vue.use(ElementUI, {
   size: 'small'

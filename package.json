@@ -27,6 +27,8 @@
     "@vue/eslint-config-prettier": "^3.0.1",
     "less": "^3.0.4",
     "less-loader": "^4.1.0",
+    "sass": "^1.22.12",
+    "sass-loader": "^8.0.0",
     "vue-template-compiler": "^2.5.17"
   },
   "browserslist": [

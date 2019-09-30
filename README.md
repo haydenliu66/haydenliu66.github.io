@@ -1,8 +1,13 @@
 # GITHUB.IO
 
+> https://haydenliu66.github.io
+
+## 环境
 建议
 - 环境: node8或以上版本 + yarn/npm
 - 编辑器：vscode
+
+注：推荐使用node-v8.x的最新版本[https://nodejs.org/zh-cn/download/](https://nodejs.org/dist/latest-v8.x/)
 
 ## 开始
 ```bash
