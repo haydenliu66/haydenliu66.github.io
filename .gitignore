@@ -2,6 +2,8 @@
 node_modules
 package-lock.json
 yarn.lock
+dist/images/
+dist/music/
 
 # local env files
 .env.local
