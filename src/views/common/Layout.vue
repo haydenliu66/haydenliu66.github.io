@@ -10,14 +10,8 @@
           <el-dropdown-item command="github">
             Github
           </el-dropdown-item>
-          <el-dropdown-item command="facebook">
-            Facebook
-          </el-dropdown-item>
           <el-dropdown-item command="wechat">
             微信
-          </el-dropdown-item>
-          <el-dropdown-item command="zhihu">
-            知乎
           </el-dropdown-item>
           <el-dropdown-item v-if="userinfo.username!='游客'" divided command="loginout">
             注销
@@ -113,13 +107,9 @@ export default {
           path: '/login'
         })
       } else if (command == 'github') {
-        window.open('https://github.com/EvanLiu2968')
-      } else if (command == 'zhihu') {
-        window.open('https://www.zhihu.com/people/evanliu2968')
+        window.open('https://github.com/haydenliu66')
       } else if (command == 'wechat') {
         this.wechatBox = true
-      } else if (command == 'facebook') {
-        window.open('https://www.facebook.com/evanliu2968')
       }
     }
   }

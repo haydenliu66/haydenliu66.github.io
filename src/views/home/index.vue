@@ -2,52 +2,34 @@
   <div class="wrapper-full">
     <el-alert :center="true" type="warning">
       <p slot="title">
-        原网站服务到期已关闭，此站点为
-        <a href="https://haydenliu66.github.io"
-          >https://haydenliu66.github.io</a
-        >
-        CNAME镜像站点
+        此站点为 <a href="https://haydenliu66.github.io">https://haydenliu66.github.io</a> CNAME镜像站点
       </p>
     </el-alert>
     <div class="box-image">
-      <img src="/public/images/horse.png" />
+      <img src="/public/images/horse.png" >
     </div>
     <div class="box-intro">
       <h1 class="title">
         Hayden Liu
       </h1>
       <h2 class="subtitle">
-        十日画一水，五日画一石
+        面朝大海，春暖花开
       </h2>
       <ul class="column-list">
-        <li>
-          <a href="https://github.com/haydenliu66" target="_blank">Github</a>
-        </li>
+        <li><a href="https://github.com/haydenliu66" target="_blank">Github</a></li>
         <li><a href="/public/images/weixin.jpg" target="_blank">微信</a></li>
+        <li><router-link to="/photo">照片</router-link></li>
+        <li><router-link to="/article">文章</router-link></li>
       </ul>
-      <ul class="column-list">
-        <li>
-          <router-link to="/photo">
-            照片
-          </router-link>
-        </li>
-        <li>
-          <router-link to="/article">
-            文章
-          </router-link>
-        </li>
-        <li>
-          <router-link to="/blog">
-            应用
-          </router-link>
-        </li>
-      </ul>
+      <!-- <ul class="column-list">
+        <li><router-link to="/photo">照片</router-link></li>
+        <li><router-link to="/article">文章</router-link></li>
+        <li><router-link to="/blog">博客</router-link></li>
+      </ul> -->
     </div>
     <p class="copyright">
-      <span>© 2019 EvanLiu, Inc.</span>
-      <a rel="nofollow" target="_blank" href="http://www.miitbeian.gov.cn"
-        >粤ICP备18035883号</a
-      >
+      <span>© 2019 haydenliu66, Inc.</span>
+      <a rel="nofollow" target="_blank" href="http://www.miitbeian.gov.cn">粤ICP备18035883号</a>
     </p>
   </div>
 </template>
@@ -103,14 +85,12 @@
     font-family: 'Montserrat', 'Helvetica Neue', Arial, sans-serif;
     font-weight: 700;
     font-size: 30px;
-    letter-spacing: 9px;
+    letter-spacing: 6px;
     text-transform: uppercase;
     margin: 12px 0;
     left: 4px;
   }
   .subtitle {
-    // font-family: "SimSun", "Hiragino Sans GB", "Microsoft YaHei","WenQuanYi Micro Hei", sans-serif;
-    font-family: 'webfont';
     margin: 10px auto 30px auto;
     font-weight: 300;
     font-size: 20px;
