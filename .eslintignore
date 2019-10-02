@@ -1,1 +1,5 @@
-static
+node_modules/
+dist/
+src/assets
+*.html
+*.config.js
