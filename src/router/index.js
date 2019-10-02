@@ -13,14 +13,6 @@ const routes = [
     }
   },
   {
-    path: '/login',
-    name: 'login',
-    component: () => import('../views/common/Login.vue'),
-    meta: {
-      title: '登录'
-    }
-  },
-  {
     path: '/photo',
     name: 'photo',
     component: () => import('../views/photo/index.vue'),

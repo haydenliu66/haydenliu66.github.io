@@ -54,7 +54,7 @@
             @load="handleImgLoad"
             @error="handleImgError"
             @mousedown="handleMouseDown"
-          />
+          >
         </template>
       </div>
     </div>
@@ -308,3 +308,8 @@ export default {
   }
 }
 </script>
+<style scoped>
+.el-image-viewer__close {
+  color: #fff;
+}
+</style>
