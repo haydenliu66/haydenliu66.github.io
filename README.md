@@ -12,7 +12,7 @@
 ## 开始
 ```bash
 yarn
-yarn run serve
+yarn run dev
 ```
 
 ### 代码规范

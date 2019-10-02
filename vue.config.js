@@ -15,6 +15,10 @@ module.exports = {
   // 打包后的地址
   indexPath: path.join(__dirname, './index.html'),
   chainWebpack: config => config.plugins.delete('named-chunks'),
+  transpileDependencies: [
+    // 'resize-detector',
+    'element-ui'
+  ],
   devServer: {
     port: 4758,
     open: true,
