@@ -28,7 +28,7 @@
       </ul> -->
     </div>
     <p class="copyright">
-      <span>© 2019 haydenliu66, Inc.</span>
+      <span>© {{ new Date().getFullYear() }} haydenliu66, Inc.</span>
       <a rel="nofollow" target="_blank" href="http://www.miitbeian.gov.cn">粤ICP备18035883号</a>
     </p>
   </div>
