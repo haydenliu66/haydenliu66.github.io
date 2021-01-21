@@ -17,7 +17,7 @@
       </h2>
       <ul class="column-list">
         <li><a href="https://github.com/haydenliu66" target="_blank">Github</a></li>
-        <li><a href="/public/images/weixin.jpg" target="_blank">微信</a></li>
+        <li><a href="./public/images/weixin.png" target="_blank">微信</a></li>
         <li><router-link to="/photo">照片</router-link></li>
         <li><router-link to="/article">文章</router-link></li>
       </ul>
